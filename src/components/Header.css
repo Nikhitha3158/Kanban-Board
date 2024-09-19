@@ -1,0 +1,62 @@
+
+.header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 1000;
+  }
+  .header button {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: none;
+    background-color: rgb(240,240,240,240);
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .display-icon{
+    margin-right: 10px;
+  }
+  .display-contents{
+    background-color: rgb(240,240,240,240);
+    padding:20px;
+    border-radius: 6px;
+  }
+  
+  .grouping-controls,
+  .sorting-controls {
+    margin-bottom: 10px;
+    display: flex;
+  }
+  
+  .grouping-controls label,
+  .sorting-controls label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+ 
+ .sorting-controls select {
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    margin-left: 120px;
+    padding-right:30px;
+  }
+  .grouping-controls select{
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    margin-left: 105px;
+    padding-right:30px;
+    
+  }
